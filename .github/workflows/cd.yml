@@ -31,5 +31,3 @@ jobs:
 
       - name: deploy
         run: npm run deploy -- -r git@github.com:tschaub/gh-pages.git
-        env:
-          GITHUB_TOKEN: ${{ secrets.SSH_PRIVATE_KEY }}
